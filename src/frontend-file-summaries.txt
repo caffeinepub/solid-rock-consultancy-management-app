@@ -1,0 +1,16 @@
+{
+  "frontend/src/App.tsx": "Main application component that handles authentication flow, profile setup, and renders the dashboard with theme provider and toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including clients, tasks, proposals, and analytics data with proper caching and invalidation.",
+  "frontend/src/components/Header.tsx": "Application header with logo, user profile dropdown, theme toggle, and logout functionality.",
+  "frontend/src/components/Footer.tsx": "Simple footer component with copyright and caffeine.ai attribution.",
+  "frontend/src/components/LoginScreen.tsx": "Landing page with login functionality using Internet Identity, featuring hero image and branding.",
+  "frontend/src/components/ProfileSetupModal.tsx": "Modal dialog for first-time users to set up their profile name after authentication.",
+  "frontend/src/pages/Dashboard.tsx": "Main dashboard page with tabbed navigation between Analytics, Clients, CRM, Tasks, and the new Pre-Launch Checklist modules.",
+  "frontend/src/components/AnalyticsDashboard.tsx": "Analytics overview displaying key metrics, task status breakdown, and quick stats with visual cards.",
+  "frontend/src/components/ClientDatabase.tsx": "Client management interface with search functionality and detailed client cards showing contact information.",
+  "frontend/src/components/CRMModule.tsx": "CRM module for managing proposals with client selection and status-based filtering tabs, now using proper ProposalStatus enum values.",
+  "frontend/src/components/ProposalsList.tsx": "Reusable component for displaying proposals with filtering by client or status, using ProposalStatus enum for type safety.",
+  "frontend/src/components/TaskTracker.tsx": "Task management interface with tabs for personal and all tasks, status updates using TaskStatus enum, and overdue indicators.",
+  "frontend/src/index.css": "Global styles with OKLCH color system defining a professional blue-themed design for both light and dark modes.",
+  "frontend/src/components/PreLaunchChecklist.tsx": "Interactive pre-launch checklist component with progress tracking, local storage persistence per user, and visual completion indicators for five key launch preparation steps."
+}
